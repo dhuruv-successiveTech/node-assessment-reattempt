@@ -7,4 +7,5 @@ const router = express.Router();
 router.use("/auth", authRoute);
 router.use("/student", studentRoute);
 
+
 export default router;

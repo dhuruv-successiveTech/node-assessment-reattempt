@@ -9,6 +9,7 @@ class ApiError {
     return this.instance;
   }
 
+  
   public error = (
     err: Error & { statusCode: number },
     req: Request,

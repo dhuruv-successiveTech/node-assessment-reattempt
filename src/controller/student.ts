@@ -9,7 +9,6 @@ class StudentData {
     }
     return this.instance;
   }
-
   public getStudent = async (req: Request, res: Response) => {
     const page = parseInt(req.params.page);
     const limit = parseInt(req.params.limit);

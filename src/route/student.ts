@@ -5,7 +5,6 @@ import studentSchema from "../utils/userSchema";
 import validation from "../middleware/validation";
 
 const studentRoute = express.Router();
-
 studentRoute.get("/", auth.authMiddleware, student.getStudent);
 studentRoute.post(
   "/",
