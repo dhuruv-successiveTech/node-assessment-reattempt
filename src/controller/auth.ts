@@ -61,7 +61,6 @@ class Auth {
       process.env.SECRET_KEY!,
       { expiresIn: "1d" }
     );
-
     return res.status(200).json({
       success: true,
       message: "User Logged in successfully",

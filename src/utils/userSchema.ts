@@ -9,6 +9,7 @@ class StudentSchema {
     }
     return this.instance;
   }
+  
 
   public joiStudent = Joi.object({
     name: Joi.string().required(),

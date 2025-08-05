@@ -21,6 +21,7 @@ class Validation {
         }
     }
   };
+  
 }
 
 export default Validation.getInstance()
